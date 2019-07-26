@@ -1,0 +1,33 @@
+.page{
+text-align: left;
+width: 70%
+}
+
+.page h3{
+    color: #586870;
+    font-size: 16px;
+}
+
+.activeduration{
+    background: #97C26C;
+    font-size: 14px;
+    text-align: -webkit-center;
+    padding: 16px 0;
+    width: -webkit-fill-available;
+    height: 50px;
+    width: 77px;
+}
+
+.nactiveduration{
+    background: #ACBBC1;
+    font-size: 14px;
+    text-align: -webkit-center;
+    padding: 16px 0;
+    width: -webkit-fill-available;
+    height: 50px;
+    width: 77px;
+}
+
+ .col{
+    height: 65px !important;
+}

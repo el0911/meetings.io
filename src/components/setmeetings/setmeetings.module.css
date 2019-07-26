@@ -1,0 +1,21 @@
+.page{
+    text-align: -webkit-center;
+    padding: 70px 0;
+}
+
+.page svg{
+    font-size: 50px;
+    color: #ACBAC2
+}
+
+
+.page h5{
+    color:#E5A7A6;
+    font-weight: 400
+}
+
+.page h6{
+    color: #ACBAC2;
+    font-weight: 100
+}
+

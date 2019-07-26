@@ -1,0 +1,21 @@
+.page{
+    width: 70%;
+    text-align: left;
+    margin-top:20px;
+    color:black
+}
+
+.page h3{
+    color: #586870;
+    font-size: 16px;
+}
+
+.page label{
+    font-size: 20px;
+}
+
+
+.picker{
+    font-size: 20px !important;
+    float: right;
+}

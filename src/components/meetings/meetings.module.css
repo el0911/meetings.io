@@ -1,0 +1,65 @@
+.page{
+    text-align: left;
+    background: white;
+    height: 130px;
+    border-radius: 9px;
+    max-height: 130px;
+    padding: 0 !important;
+    padding-left: 20px !important;
+    padding-top: 10px !important;
+}
+
+.page div{
+    padding: 0 !important
+}
+
+.up  p{
+    color: #B5636E;
+    font-size: 12px;
+    padding: 0 !important;
+    font-weight: 400;
+    margin: 0 !important;
+    margin: 5px 0;
+
+}
+
+.up  h4{
+    color: #5C6B72;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.up  h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #5A6971;
+}
+
+.up{
+    max-height: 55%;
+}
+
+.up section{
+    background: #D44E5E;
+    text-align: center;
+    font-size: 15px;
+    width: fit-content;
+    padding: 2px 25px;
+    border-radius: 10px;
+    position: absolute;
+    right: -5px;
+}
+
+ .down{
+    max-height: 45%;
+    float: right;
+    margin-right: 12px !important;
+}
+
+
+
+.down img{
+    height: 30px !important;
+    width: 30px !important;
+    margin-left:10px;
+}

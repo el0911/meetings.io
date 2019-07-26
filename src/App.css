@@ -19,6 +19,48 @@
   color: white;
 }
 
+.App-header .container{
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.user{
+  background: #E9AAA6;
+  height: fill;
+  text-align: center
+}
+
+input{
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;}
+
+.user div img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%
+}
+
+.user div{
+  padding: 30px 0;
+}
+
+.user div p{
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold
+}
+
+.user section p{
+  font-size: 15px;
+}
+
+
+
 .App-link {
   color: #61dafb;
 }

@@ -1,0 +1,21 @@
+
+
+.page{
+
+}
+
+.page form{
+    width: 70%;
+    margin: 40px 0;
+}
+
+.page input{
+    border: 0;
+    border-bottom: 1px solid #ADBAC1;
+    border-radius: 0;
+    margin: 25px 0;
+}
+
+.page input:focus{
+    border-bottom: 1px solid #97C26C !important;
+}
