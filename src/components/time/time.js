@@ -3,10 +3,19 @@ import style from './time.module.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import DateTimePicker from 'react-datetime-picker';
-
+import edit from '../../redux/reducers'
+import {useDispatch} from 'react-redux'
 export default function Time() {
+    const dispatch = useDispatch()
 
     const onChange =(value)=>{
+        
+        
+        const payload = {
+            timestart:value
+        }
+
+        dispatch(edit(payload))
 
     }
 
@@ -22,18 +31,9 @@ export default function Time() {
                         }}
                         value={new Date()}
                     />
-
+ 
                 </Col>
-                <Col>
-                    <label>To</label>
-                    <DateTimePicker className={style.picker}
-                         onChange={e=>{
-                            // onChange()
-                        }}
-                        value={new Date()}
-                    />
-
-                </Col>
+                
             </Row>
         </div>
     )

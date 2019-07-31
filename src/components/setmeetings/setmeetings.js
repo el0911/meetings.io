@@ -14,6 +14,8 @@ export default function Setmeetings() {
             <Customform></Customform>
             <Duration></Duration>
             <Time></Time>
+
+            <button className={style.sendmetohell}> Send invite</button>
         </div>
     )
 }
